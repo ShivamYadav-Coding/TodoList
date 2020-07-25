@@ -1,0 +1,70 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+.done{
+    color: black;
+    text-decoration: line-through;
+}
+
+#container{
+    width: 360px;
+    margin: 10vh auto;
+}
+#container h1{
+    color: #007bff;
+    font-family: 'Vollkorn', serif;
+    width: 100%;
+    border-bottom: 1px solid darkgrey;
+}
+#container input{
+width: 100%;
+margin: 10px 0;
+outline: none;
+padding: 10px;
+}
+#container .button{
+    font-family: 'Vollkorn', serif;
+    background-color: indigo;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    font-size: 2em;
+    border-radius: 5px;
+}
+#container button:hover{
+    background-color: purple;
+}
+
+#container ul{
+    list-style: none;
+    margin-top: 5px;
+    font-family: 'Crimson Pro', serif;
+}
+#container  ul li{
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background-color: #9966ff;
+    display: flex;
+    font-size: 1.5em;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+}
+#container  ul li:nth-child(even){
+    background-color: #6699ff;
+}
+#container  ul li div{
+    display: inline-block;
+}
+#container  ul li .del{
+    color: crimson;
+}
+#container  ul li .del i:hover{
+    cursor: pointer;
+}
